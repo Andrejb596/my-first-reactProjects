@@ -15,21 +15,21 @@ function App() {
     <BrowserRouter>
       <nav className='app__nav'>
         <NavLink to="my-first-reactProjects" className="navLink">Home</NavLink>
-        <NavLink to="my-first-reactProjects/Page_1" className="navLink">Counter</NavLink>
-        <NavLink to="my-first-reactProjects/Page_2" className="navLink">Modal window</NavLink>
-        <NavLink to="my-first-reactProjects/Page_3" className="navLink">Quiz</NavLink>
+        <NavLink to="Page_1" className="navLink">Counter</NavLink>
+        <NavLink to="Page_2" className="navLink">Modal window</NavLink>
+        <NavLink to="Page_3" className="navLink">Quiz</NavLink>
         {/* <NavLink to="Page_4" className="navLink">"Динамічна пагінація"</NavLink> */}
-        <NavLink to="my-first-reactProjects/Page_5" className="navLink">Про ref</NavLink>
-        <NavLink to="my-first-reactProjects/Page_6" className="navLink">Tabs</NavLink>
+        <NavLink to="Page_5" className="navLink">Про ref</NavLink>
+        <NavLink to="Page_6" className="navLink">Tabs</NavLink>
       </nav>
       <Switch>
         <Route path="my-first-reactProjects" element={<Home />} />
-        <Route path="my-first-reactProjects/Page_1" element={<Page_1 />} />
-        <Route path="my-first-reactProjects/Page_2" element={<Page_2 />} />
-        <Route path="my-first-reactProjects/Page_3" element={<Page_3 />} />
+        <Route path="Page_1" element={<Page_1 />} />
+        <Route path="Page_2" element={<Page_2 />} />
+        <Route path="Page_3" element={<Page_3 />} />
         {/* <Route path="Page_4" element={<Page_4 />} /> */}
-        <Route path="my-first-reactProjects/Page_5" element={<Page_5 />} />
-        <Route path="my-first-reactProjects/Page_6" element={<Page_6 />} />
+        <Route path="Page_5" element={<Page_5 />} />
+        <Route path="Page_6" element={<Page_6 />} />
       </Switch>
     </BrowserRouter>
   );
