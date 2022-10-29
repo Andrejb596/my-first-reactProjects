@@ -1,0 +1,12 @@
+.list {
+    height: 50vh;
+    overflow: auto;
+
+    &__item {
+        border-bottom: 1px solid black;
+    }
+    &__point{
+        height: 20px;
+         background: green;
+    }
+}
