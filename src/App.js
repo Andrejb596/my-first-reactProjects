@@ -15,12 +15,12 @@ function App() {
     <BrowserRouter>
       <nav className='app__nav'>
         <NavLink to="my-first-reactProjects" className="navLink">Home</NavLink>
-        <NavLink to="Page_1" className="navLink">Counter</NavLink>
-        <NavLink to="Page_2" className="navLink">Modal window</NavLink>
-        <NavLink to="Page_3" className="navLink">Quiz</NavLink>
+        <NavLink to="my-first-reactProjects/Page_1" className="navLink">Counter</NavLink>
+        <NavLink to="my-first-reactProjects/Page_2" className="navLink">Modal window</NavLink>
+        <NavLink to="my-first-reactProjects/Page_3" className="navLink">Quiz</NavLink>
         {/* <NavLink to="Page_4" className="navLink">"Динамічна пагінація"</NavLink> */}
-        <NavLink to="Page_5" className="navLink">Про ref</NavLink>
-        <NavLink to="Page_6" className="navLink">Tabs</NavLink>
+        <NavLink to="my-first-reactProjects/Page_5" className="navLink">Про ref</NavLink>
+        <NavLink to="my-first-reactProjects/Page_6" className="navLink">Tabs</NavLink>
       </nav>
       <Switch>
         <Route path="my-first-reactProjects" element={<Home />} />
