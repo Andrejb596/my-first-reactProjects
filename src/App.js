@@ -24,12 +24,12 @@ function App() {
       </nav>
       <Switch>
         <Route path="my-first-reactProjects" element={<Home />} />
-        <Route path="Page_1" element={<Page_1 />} />
-        <Route path="Page_2" element={<Page_2 />} />
-        <Route path="Page_3" element={<Page_3 />} />
+        <Route path="my-first-reactProjects/Page_1" element={<Page_1 />} />
+        <Route path="my-first-reactProjects/Page_2" element={<Page_2 />} />
+        <Route path="my-first-reactProjects/Page_3" element={<Page_3 />} />
         {/* <Route path="Page_4" element={<Page_4 />} /> */}
-        <Route path="Page_5" element={<Page_5 />} />
-        <Route path="Page_6" element={<Page_6 />} />
+        <Route path="my-first-reactProjects/Page_5" element={<Page_5 />} />
+        <Route path="my-first-reactProjects/Page_6" element={<Page_6 />} />
       </Switch>
     </BrowserRouter>
   );
