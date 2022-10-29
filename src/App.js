@@ -6,19 +6,21 @@ import Page_2 from "./pages/Page_2";
 import Page_3 from "./pages/Page_3";
 // import Page_4 from "./pages/Page_4";
 import Page_5 from "./pages/Page_5";
+import Page_6 from "./pages/Page_6";
 
 
 function App() {
 
   return (
     <BrowserRouter>
-      <nav>
-        <NavLink to="my-first-reactProjects" className="navLink">"Home"</NavLink>
-        <NavLink to="Page_1" className="navLink">"Counter"</NavLink>
-        <NavLink to="Page_2" className="navLink">"Modal window"</NavLink>
-        <NavLink to="Page_3" className="navLink">"Quiz"</NavLink>
+      <nav className='app__nav'>
+        <NavLink to="my-first-reactProjects" className="navLink">Home</NavLink>
+        <NavLink to="Page_1" className="navLink">Counter</NavLink>
+        <NavLink to="Page_2" className="navLink">Modal window</NavLink>
+        <NavLink to="Page_3" className="navLink">Quiz</NavLink>
         {/* <NavLink to="Page_4" className="navLink">"Динамічна пагінація"</NavLink> */}
-        <NavLink to="Page_5" className="navLink">"Про ref"</NavLink>
+        <NavLink to="Page_5" className="navLink">Про ref</NavLink>
+        <NavLink to="Page_6" className="navLink">Tabs</NavLink>
       </nav>
       <Switch>
         <Route path="my-first-reactProjects" element={<Home />} />
@@ -27,6 +29,7 @@ function App() {
         <Route path="Page_3" element={<Page_3 />} />
         {/* <Route path="Page_4" element={<Page_4 />} /> */}
         <Route path="Page_5" element={<Page_5 />} />
+        <Route path="Page_6" element={<Page_6 />} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,18 +1,28 @@
-nav{
-    background-color: white;
-    position: fixed;
-    width: 100vw;
-    padding: 5px;
-    display: flex;
-    border-bottom: 2px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
-    .navLink{
-        padding-left: 20px;
-        cursor: pointer;
-    }
+.app__nav {
+  background-color: grey;
+  position: fixed;
+  width: 100vw;
+  padding: 5px;
+  display: flex;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+
+  a {
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration-line: none;
+    color: rgb(42, 82, 114);
+  }
+
+  .active {
+    color: white;
+    text-decoration-line: underline;
+  }
 }
-.page{
-    padding-top: 50px;
+
+.page {
+  padding-top: 50px;
 }
