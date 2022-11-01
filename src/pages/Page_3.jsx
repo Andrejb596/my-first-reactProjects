@@ -24,7 +24,7 @@ function Result({ correct }) {
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
       <h2>Ви зробили {correct} правильні відповіді з {questions.length}</h2>
-      <a href="Page_3">
+      <a href="/#/Page_3">
         <button>Спробувати знову</button>
       </a>
     </div>
