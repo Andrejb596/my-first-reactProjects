@@ -1,6 +1,6 @@
 import React from 'react'
-import Counter from "../_components_/Page_1/Counter";
-import { ReactComponent as Logo } from "../_components_/Page_1/icon.svg";
+import Counter from "../components/Page_1/Counter";
+import { ReactComponent as Logo } from "../components/Page_1/icon.svg";
 import "./SCSS/page_1.scss";
 
 

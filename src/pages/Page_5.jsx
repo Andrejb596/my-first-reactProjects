@@ -1,5 +1,5 @@
 import React from 'react'
-import Hover from "../_components_/Page_5/Hover";
+import Hover from "../components/Page_5/Hover";
 
 
 export default function Page_5() {

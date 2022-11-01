@@ -1,0 +1,14 @@
+.Page_7 {
+    &__accordion {
+        &-container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            h1 {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

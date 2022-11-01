@@ -1,6 +1,6 @@
 import React from 'react'
 
-import List from "../_components_/Page_4/List";
+import List from "../components/Page_4/List";
 
 export default function Page_4() {
   return (
