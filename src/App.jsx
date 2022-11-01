@@ -23,7 +23,7 @@ function App() {
         <NavLink to="Page_6" className="navLink">Tabs</NavLink>
       </nav>
       <Switch>
-        <Route path="Home" element={<Home />} />
+        <Route exact path="Home" element={<Home />} />
         <Route path="Page_1" element={<Page_1 />} />
         <Route path="Page_2" element={<Page_2 />} />
         <Route path="Page_3" element={<Page_3 />} />
