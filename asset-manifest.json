@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/my-first-reactProjects/static/css/main.549e80fd.css",
-    "main.js": "/my-first-reactProjects/static/js/main.f2ce23d8.js",
+    "main.css": "/my-first-reactProjects/static/css/main.a984f8ab.css",
+    "main.js": "/my-first-reactProjects/static/js/main.0b12cb1c.js",
+    "static/media/iconLetter.png": "/my-first-reactProjects/static/media/iconLetter.ffd2a60b9f73a2317981.png",
+    "static/media/iconJacket.png": "/my-first-reactProjects/static/media/iconJacket.6b4939b2f5255ec67cec.png",
+    "static/media/iconBonfire.png": "/my-first-reactProjects/static/media/iconBonfire.1f2e302b9ca2a7e013e2.png",
+    "static/media/iconMoose.png": "/my-first-reactProjects/static/media/iconMoose.33bae0a7799f1c6e3a78.png",
+    "static/media/iconUmbrella.png": "/my-first-reactProjects/static/media/iconUmbrella.04b67ee10c8e28f1b459.png",
+    "static/media/iconBulldozer.png": "/my-first-reactProjects/static/media/iconBulldozer.eade88ad96b604e9206f.png",
+    "static/media/iconSnow.png": "/my-first-reactProjects/static/media/iconSnow.b3fcfcf14c1b1098be09.png",
     "static/media/icon.svg": "/my-first-reactProjects/static/media/icon.8c1618a4429fc401337683786483a755.svg",
     "index.html": "/my-first-reactProjects/index.html",
-    "main.549e80fd.css.map": "/my-first-reactProjects/static/css/main.549e80fd.css.map",
-    "main.f2ce23d8.js.map": "/my-first-reactProjects/static/js/main.f2ce23d8.js.map"
+    "main.a984f8ab.css.map": "/my-first-reactProjects/static/css/main.a984f8ab.css.map",
+    "main.0b12cb1c.js.map": "/my-first-reactProjects/static/js/main.0b12cb1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.549e80fd.css",
-    "static/js/main.f2ce23d8.js"
+    "static/css/main.a984f8ab.css",
+    "static/js/main.0b12cb1c.js"
   ]
 }
