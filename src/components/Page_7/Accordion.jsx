@@ -20,7 +20,6 @@ const data = [
     }
 ]
 
-
 export default function Accordion() {
     const [selected, setSelected] = useState(null);
 

@@ -1,28 +1,108 @@
 .app__nav {
-  background-color: grey;
-  // position: fixed;
-  width: 100vw;
-  padding: 5px;
-  display: flex;
-  border-bottom: 2px solid black;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 15px;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(36, 43, 43);
+  transition: all .3s;
+  z-index: 10;
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: .5px;
+
+  ul {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    li {
+      a {
+        position: relative;
+        display: inline-block;
+        z-index: 2;
+        transition: .2s;
+
+        &:hover {
+          letter-spacing: 1px;
+
+          &::before {
+            transform: scale(1);
+            transform-origin: left;
+            transition: transform .3s;
+          }
+        }
+
+        &::before {
+          content: '';
+          bottom: 0;
+          left: 0;
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background-color: rgb(180, 180, 180);
+          z-index: -1;
+          transform: scaleX(0);
+          transform-origin: right;
+          transition: transform .3s;
+        }
+      }
+    }
+  }
+
+  &-changeArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    right: -60px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      content: '';
+      position: relative;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      border-top: 4px solid red;
+      border-right: 4px solid red;
+      transform: rotate(45deg);
+      transition: all .2s;
+    }
+  }
 
   a {
-    padding-left: 20px;
-    cursor: pointer;
-    font-weight: 600;
-    text-decoration-line: none;
-    color: rgb(42, 82, 114);
+    color: #fff;
   }
 
   .active {
     color: white;
-    text-decoration-line: underline;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: rgb(180, 180, 180);
+      z-index: -1;
+      transform: scaleX(1);
+      transform-origin: right;
+      transition: transform .3s;
+    }
   }
 }
 
-.page {
-  padding-top: 50px;
+.app__nav.activ {
+  left: 0;
+}
+
+.app__nav.activ .app__nav-changeArrow:before {
+  transform: rotate(225deg);
+  left: 20px;
 }
