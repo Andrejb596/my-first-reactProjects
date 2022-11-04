@@ -10,6 +10,7 @@ import Page_5 from "./pages/Page_5";
 import Page_6 from "./pages/Page_6";
 import Page_7 from "./pages/Page_7";
 import Page_8 from "./pages/Page_8";
+import Page_9 from "./pages/Page_9";
 
 
 function App() {
@@ -24,33 +25,21 @@ function App() {
     <HashRouter>
       <nav className={isActive ? 'app__nav activ' : 'app__nav'}>
         <div className='app__nav-changeArrow' onClick={changeArrow}></div>
-        <ul>
-          <li>
-          <NavLink to="Home" className="navLink">Home</NavLink>
-          </li>
-          <li>
-          <NavLink to="Page_1" className="navLink">Counter</NavLink>
-          </li>
-          <li>
-          <NavLink to="Page_2" className="navLink">Modal window</NavLink>
-          </li>
-          <li>
-          <NavLink to="Page_3" className="navLink">Quiz</NavLink>
-          </li>
-          <li>
-          <NavLink to="Page_5" className="navLink">Про ref</NavLink>
-          </li>
-          <li>
-          {/* <NavLink to="Page_4" className="navLink">"Динамічна пагінація"</NavLink> */}
-          </li>
-          <li>
-          <NavLink to="Page_6" className="navLink">Tabs</NavLink>
-          </li>
-          <li>
-          <NavLink to="Page_7" className="navLink">Accordions</NavLink>
-          </li>
-          <li>
-          <NavLink to="Page_8" className="navLink">Cards</NavLink>
+        <ul className='app__nav__menu'>
+          <li><NavLink to="Home" className="navLink">Home</NavLink></li>
+          <li><NavLink to="Page_1" className="navLink">Counter</NavLink></li>
+          <li><NavLink to="Page_2" className="navLink">Modal window</NavLink></li>
+          <li><NavLink to="Page_3" className="navLink">Quiz</NavLink></li>
+          <li><NavLink to="Page_5" className="navLink">Про ref</NavLink></li>
+          <li>{/* <NavLink to="Page_4" className="navLink">"Динамічна пагінація"</NavLink> */}</li>
+          <li><NavLink to="Page_6" className="navLink">Tabs</NavLink></li>
+          <li><NavLink to="Page_7" className="navLink">Accordions</NavLink></li>
+          <li><NavLink to="Page_8" className="navLink">Cards</NavLink></li>
+          <li className='menu__list'>
+            <p>Drop list</p>
+            <ul className='menu__drop'>
+              <li><NavLink to="Page_9" className="navLink">DropMenu</NavLink></li>
+            </ul>
           </li>
         </ul>
       </nav>
@@ -64,6 +53,7 @@ function App() {
         <Route path="Page_6" element={<Page_6 />} />
         <Route path="Page_7" element={<Page_7 />} />
         <Route path="Page_8" element={<Page_8 />} />
+        <Route path="Page_9" element={<Page_9 />} />
       </Switch>
     </HashRouter>
   );
