@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-first-reactProjects/static/css/main.b11a366b.css",
-    "main.js": "/my-first-reactProjects/static/js/main.647ecbfd.js",
+    "main.css": "/my-first-reactProjects/static/css/main.186296da.css",
+    "main.js": "/my-first-reactProjects/static/js/main.be0a2f24.js",
     "static/media/iconLetter.png": "/my-first-reactProjects/static/media/iconLetter.ffd2a60b9f73a2317981.png",
     "static/media/iconJacket.png": "/my-first-reactProjects/static/media/iconJacket.6b4939b2f5255ec67cec.png",
     "static/media/iconBonfire.png": "/my-first-reactProjects/static/media/iconBonfire.1f2e302b9ca2a7e013e2.png",
@@ -11,11 +11,11 @@
     "static/media/iconSnow.png": "/my-first-reactProjects/static/media/iconSnow.b3fcfcf14c1b1098be09.png",
     "static/media/icon.svg": "/my-first-reactProjects/static/media/icon.8c1618a4429fc401337683786483a755.svg",
     "index.html": "/my-first-reactProjects/index.html",
-    "main.b11a366b.css.map": "/my-first-reactProjects/static/css/main.b11a366b.css.map",
-    "main.647ecbfd.js.map": "/my-first-reactProjects/static/js/main.647ecbfd.js.map"
+    "main.186296da.css.map": "/my-first-reactProjects/static/css/main.186296da.css.map",
+    "main.be0a2f24.js.map": "/my-first-reactProjects/static/js/main.be0a2f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.b11a366b.css",
-    "static/js/main.647ecbfd.js"
+    "static/css/main.186296da.css",
+    "static/js/main.be0a2f24.js"
   ]
 }
