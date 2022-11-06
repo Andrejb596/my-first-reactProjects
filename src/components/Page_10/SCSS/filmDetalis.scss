@@ -1,0 +1,31 @@
+.filmDetalis {
+    margin-bottom: 10px;
+    p {
+        font-weight: 600;
+    }
+
+    .container__button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        border: 1px solid #000;
+    }
+
+    button {
+        width: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 5px 50px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .plus {
+        background-color: green;
+    }
+
+    .minus {
+        background-color: red;
+    }
+}
