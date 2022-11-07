@@ -1,6 +1,14 @@
 .Page_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     .logo {
         display: flex;
-        
+        border: 1px solid #000;
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 5px;
     }
 }

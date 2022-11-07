@@ -12,13 +12,15 @@ import Page_7 from "./pages/Page_7";
 import Page_8 from "./pages/Page_8";
 import Page_9 from "./pages/Page_9";
 import Page_10 from "./pages/Page_10";
+import Page_11 from "./pages/Page_11";
+
+
 
 
 function App() {
   const [isActive, setIsActive] = useState(false);
 
   function changeArrow() {
-    console.log('awd');
     setIsActive((visibel) => !visibel);
   }
 
@@ -36,6 +38,7 @@ function App() {
           <li><NavLink to="Page_6" className="navLink">Tabs</NavLink></li>
           <li><NavLink to="Page_7" className="navLink">Accordions</NavLink></li>
           <li><NavLink to="Page_8" className="navLink">Cards</NavLink></li>
+
           <li className='menu__list'>
             <p>Drop list</p>
             <ul className='menu__drop'>
@@ -43,6 +46,14 @@ function App() {
               <li><NavLink to="Page_10" className="navLink">По відео</NavLink></li>
             </ul>
           </li>
+
+          <li className='menu__list'>
+            <p>Redax</p>
+            <ul className='menu__drop'>
+              <li><NavLink to="Page_11" className="navLink">__1__</NavLink></li>
+            </ul>
+          </li>
+
         </ul>
       </nav>
       <Switch>
@@ -57,6 +68,7 @@ function App() {
         <Route path="Page_8" element={<Page_8 />} />
         <Route path="Page_9" element={<Page_9 />} />
         <Route path="Page_10" element={<Page_10 />} />
+        <Route path="Page_11" element={<Page_11 />} />
       </Switch>
     </HashRouter>
   );

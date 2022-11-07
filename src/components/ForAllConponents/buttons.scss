@@ -1,0 +1,47 @@
+.Button {
+    padding: 10px 25px;
+    color: #fff;
+    min-width: 100px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: grey;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        transform: translateY(2px);
+        box-shadow: none;
+    }
+
+    &.increment {
+        background-color: rgb(0, 77, 0);
+        box-shadow: 0 4px 0 darken(rgb(0, 77, 0), 10%);
+        border: 1px solid darken(rgb(0, 77, 0), 15%);
+    }
+
+    &.decrement {
+        background-color: rgb(149, 2, 2);
+        box-shadow: 0 4px 0 darken(#e63946, 10%);
+        border: 1px solid darken(#e63946, 15%);
+    }
+
+    &.divide {
+        background-color: rgb(126, 126, 0);
+        box-shadow: 0 4px 0 darken(rgb(126, 126, 0), 10%);
+        border: 1px solid darken(rgb(126, 126, 0), 15%);
+    }
+    &.zero {
+        background-color: rgb(126, 0, 69);
+        box-shadow: 0 4px 0 darken(rgb(126, 0, 69), 10%);
+        border: 1px solid darken(rgb(126, 0, 69), 15%);
+    }
+
+    &.multiply {
+        background-color: rgb(0, 0, 204);
+        box-shadow: 0 4px 0 darken(rgb(0, 0, 204), 10%);
+        border: 1px solid darken(rgb(0, 0, 204), 15%);
+    }
+}

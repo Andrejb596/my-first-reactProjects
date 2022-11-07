@@ -1,0 +1,14 @@
+.addTodo {
+    border: 1px solid #000;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+    input {
+        margin-right: 5px;
+        padding: 5px;
+        border: 1px solid #000;
+    }
+}
