@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button } from "../ForAllConponents/Buttons";
+import { Button } from "../ForAllComponents/Buttons";
 import './scss/form.scss'
 
 export default function Form() {

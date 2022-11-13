@@ -29,7 +29,7 @@ export default function Hover() {
   const isHovering = useHover(ref);
   console.log(isHovering);
   return (
-    <div ref={ref} style={{ width: 300, height: 300, background: isHovering ? "red" : "blue"}}>
+    <div ref={ref} style={{ width: 100, height: 50, background: isHovering ? "red" : "blue"}}>
       <button onClick={()=> console.log(ref.current)}>Click me</button>
     </div>
   )

@@ -4,6 +4,7 @@ import Reviews from "../components/Page_10/Reviews";
 import Recommendations from "../components/Page_10/Recommendations";
 import './SCSS/page_10.scss'
 
+
 export default function Page_10() {
     const filmDetalis = {
         id: 'awdawdawdaw', // доделать

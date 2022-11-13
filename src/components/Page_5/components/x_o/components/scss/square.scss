@@ -1,0 +1,14 @@
+.squareContainer {    
+    .square {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(204, 168, 51);
+        border: 3px solid darkblue;
+        font-size: 60px;
+        cursor: pointer;
+        transition: background-color .2s;
+        &:hover{
+            background-color: rgb(255, 222, 63);
+        }
+    }
+}

@@ -21,7 +21,7 @@ function App() {
   const [isActive, setIsActive] = useState(false);
 
   function changeArrow() {
-    setIsActive((visibel) => !visibel);
+    setIsActive((visible) => !visible);
   }
 
   return (

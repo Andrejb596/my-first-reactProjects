@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { Button } from "../ForAllConponents/Buttons";
+import { Button } from "../ForAllComponents/Buttons";
 import './scss/input.scss'
 
 export default function Input() {

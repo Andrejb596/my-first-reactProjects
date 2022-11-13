@@ -1,0 +1,29 @@
+.gameContainer {
+    min-height: 100%;
+    width: 100vw;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .startBtn {
+        width: 200px;
+        height: 35px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        color: #fff;
+        background-color: rgb(0, 0, 215);
+        border: 1px solid white;
+
+        &:active {
+            background-color: rgb(60, 21, 18);
+        }
+    }
+
+    p {
+        color: #fff;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
