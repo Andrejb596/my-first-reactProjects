@@ -1,0 +1,70 @@
+.page12 {
+    background-color: darkgrey;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+    display: flex;
+    padding-left: 100px;
+
+    .page12Wrapper {
+        display: flex;
+        justify-content: center;
+
+        table {
+            border: 2px solid rgb(71, 170, 230);
+            border-spacing: 2px;
+        }
+
+        tbody td {
+            font-size: 17px;
+            background-color: rgb(71, 170, 230);
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            text-align: center;
+            transition: all .2s;
+        }
+
+        .button {
+            width: 50px;
+            height: 50px;
+            color: #fff;
+            font-size: 25px;
+            transition: all .3s;
+        }
+
+        .plus {
+            background-color: rgb(242, 165, 0);
+            position: relative;
+
+            &:hover {
+                background-color: rgb(255, 207, 0);
+            }
+        }
+
+        .minus {
+            background-color: rgb(178, 0, 0);
+            position: relative;
+
+            &:hover {
+                background-color: rgb(254, 0, 0);
+            }
+        }
+
+        .plusVertical {
+            margin-top: 54px;
+        }
+
+        .plusHorizontal {
+            margin-left: 4px;
+        }
+
+        .container__minusHorizontal {
+            width: 50px;
+        }
+
+        .container__minusVertical {
+            height: 50px;
+        }
+    }
+}

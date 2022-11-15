@@ -13,6 +13,7 @@ import Page_8 from "./pages/Page_8";
 import Page_9 from "./pages/Page_9";
 import Page_10 from "./pages/Page_10";
 import Page_11 from "./pages/Page_11";
+import Page_12 from "./pages/Page_12";
 
 
 
@@ -44,6 +45,7 @@ function App() {
             <ul className='menu__drop'>
               <li><NavLink to="Page_9" className="navLink">Sudoku</NavLink></li>
               <li><NavLink to="Page_10" className="navLink">По відео</NavLink></li>
+              <li><NavLink to="Page_12" className="navLink">Cube</NavLink></li>
             </ul>
           </li>
 
@@ -69,6 +71,7 @@ function App() {
         <Route path="Page_9" element={<Page_9 />} />
         <Route path="Page_10" element={<Page_10 />} />
         <Route path="Page_11" element={<Page_11 />} />
+        <Route path="Page_12" element={<Page_12 />} />
       </Switch>
     </HashRouter>
   );

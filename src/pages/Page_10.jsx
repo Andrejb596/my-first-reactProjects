@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react'
-import FilmDetalis from "../components/Page_10/FilmDetalis";
+import FilmDetails from "../components/Page_10/FilmDetails";
 import Reviews from "../components/Page_10/Reviews";
 import Recommendations from "../components/Page_10/Recommendations";
 import './SCSS/page_10.scss'
@@ -45,7 +45,7 @@ export default function Page_10() {
 
     return (
         <div className='page_10'>
-            <FilmDetalis
+            <FilmDetails
                 title={filmDetalis.title}
                 genre={filmDetalis.genre}
                 seasonCount={filmDetalis.seasonCount}

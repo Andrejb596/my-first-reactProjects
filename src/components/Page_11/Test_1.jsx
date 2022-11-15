@@ -19,9 +19,9 @@ export default function Test_1() {
       <Button className='increment' onClick={() => addCustomer('name of man')} title='Додати запис' />
       {customers.length > 0 ?
         <div>
-          {customers.map(customer => {
+          {customers.map(customer => (
             <h4>{customer.name}</h4>
-          })}
+          ))}
         </div>
         :
         <h1>Записи відсутні</h1>
